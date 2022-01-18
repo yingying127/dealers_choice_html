@@ -20,7 +20,7 @@ pre{
     border: dashed 2px rgb(103, 147, 189);
     width: 1rem;
     margin: 0 24rem;
-    padding: .5rem 1.7rem 1.5rem 1.2rem;
+    padding: .5rem 1.8rem 1.5rem 1.2rem;
 }
 
 body > div > div {
@@ -33,26 +33,55 @@ body > div > div {
 
 body > div > div > div {
     height: 630px;
+    border-radius: 1rem;
 }
 
-body > div > div:first-child > div {
+#burj > div {
     background-image: url(burj\ khalifa.jpg);
     background-size: 100%;
 }
 
-body > div > div:nth-child(2) > div {
+#merdeka > div {
     background-image: url(merdeka\ 118.jpg);
     background-size: 200%;
     background-position-x: 50%;
     background-position-y: 40%
 }
 
-body > div > div:last-child > div {
+#shanghai > div {
     background-image: url(shanghai\ tower.jpeg);
     background-size: 200%;
     background-position-x: 70%;
     background-position-y: 100%;
 } 
+
+.length {
+    font-size: 120%;
+
+}
+
+.name, .location {
+    text-align: center;
+    font-size: 150%;
+    margin: .2rem;
+}
+
+
+.description {
+    font-size: 130%;
+    color: rgb(101, 104, 107);
+    padding: 1rem;
+    line-height: 1.9rem;
+    border: dashed 2.5px rgb(103, 147, 189);
+    border-radius: 1rem;
+
+}
+
+span {
+    font-style:italic;
+    color: white;
+    background-color: rgb(103, 147, 189);
+}
 </style>
 
 
@@ -65,23 +94,115 @@ body > div > div:last-child > div {
 
     <body>
         <div>
-            <div>
-                <div>photo here</div>
-                <p>Burj Khalifa
-                </p>
-                <p>Bio Here</p>
+            <div id='burj'>
+                <div>
+                    <pre class='length'>
+                                                                  
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                             2, 722 ft
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                              
+                        
+                    </pre>
+                </div>
+                <p class='name'>Burj Khalifa</p>
+                <p class='location'>Dubai, United Arab Emirates</p>
+                <p class='description'>Burj Khalifa has a height of <span class='height'>2,722 feet or 828 meters.</span> It was completed in 2009, and has been the tallest building ever since. It was designed based on the government's decision to diversify from an oil-based economy, and for Dubai to gain international recognition.</p>
             </div>
 
-            <div>
-                <div>photo here</div>
-                <p>Merdeka 118</p>
-                <p>Bio Here</p>
+            <div id='merdeka'>
+                <div>
+                    <pre class='length'>
+                       
+
+
+
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+              2, 227 ft
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+</pre>
+                </div>
+                <p class='name'>Merdeka 118</p>
+                <p class='location'>Kuala Lumpur, Malaysia</p>
+                <p class='description'>Merdeka 118 is 118 stories and has a height of <span class='height'>2,227 feet or 678.9 meters.</span> It is still under construction and expected to finish by 2022. This building will be the first in Malaysia to receive a triple platinum rating from the Leadership in Energy and Environmental Design (LEED).</p>
             </div>
 
-            <div>
-                <div>photo here</div>
-                <p>Shanghai Tower</p>
-                <p>Bio Here</p>
+            <div id='shanghai'>
+                <div>
+                    <pre class='length'>
+                       
+
+
+
+                        
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                2, 073 ft
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+                                                                    |
+    </pre>
+                </div>
+                <p class='name'>Shanghai Tower</p>
+                <p class='location'>Shanghai, China</p>
+
+                <p class='description'>Shanghai Tower is 128 stories and has a height of <span class='height'>2,073 feet or 632 meters.</span> It was completed in 2014, and its observation deck was completed in 2016. This building is designed to capture rainwater for internal use, and to recycle a portion of its wastewater.</p>
             </div>
         </div>
     </body>
